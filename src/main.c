@@ -8,7 +8,7 @@
 #include <math.h>
 #include <sys/time.h>
 
-#define NUM_LINES 1000
+#define NUM_LINES 1
 
 int load_wav(const char* filename, ALuint* buffer) {
     FILE* file = fopen(filename, "rb");
